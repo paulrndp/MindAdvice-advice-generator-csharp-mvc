@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindAdvice", "MindAdvice\MindAdvice.csproj", "{E6583555-28E8-4538-A0EA-E32E9696304F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6583555-28E8-4538-A0EA-E32E9696304F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6583555-28E8-4538-A0EA-E32E9696304F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6583555-28E8-4538-A0EA-E32E9696304F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6583555-28E8-4538-A0EA-E32E9696304F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56387A95-51CE-4B26-89DC-1222F6A1D453}
+	EndGlobalSection
+EndGlobal
