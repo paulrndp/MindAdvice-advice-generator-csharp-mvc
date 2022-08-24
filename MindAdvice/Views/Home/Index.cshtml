@@ -2,7 +2,36 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .vertical-center {
+        min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+        min-height: 100vh; /* These two lines are counted as one :-)       */
+
+        display: flex;
+        align-items: center;
+    }
+</style>
+<div class="row vertical-center">
+    <div class="col-lg-6">
+        <h1 style="font-size: 200px;">Mind Advice</h1>
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    </div>
+    <div class="col-lg-6">
+        <div v class="d-flex justify-content-center">
+            <div class="card border-primary mb-3" style="max-width:50rem;">
+                <div class="card-body">
+                    <blockquote class="blockquote">
+                        <p class="mb-0" style="font-size: 35px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    </blockquote>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="row col-md-5">
+                <button type="button" class="btn btn-primary btn-lg">give me an advice</button>
+            </div>
+        </div>
+    </div>
 </div>
